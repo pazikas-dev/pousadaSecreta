@@ -1,0 +1,36 @@
+.banner-bedrooms {
+    height: 40vh;
+}
+.container-bedrooms img {
+    box-shadow: 0 6px 18px 0.3px #3d3d3d55;
+    width: 350px;
+    border-radius: 7px;
+    flex-grow: 1;
+}
+
+.information {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    color: #3d3d3d;
+}
+
+
+.info-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    color: #3d3d3d;
+}
+
+.info-list li {
+    width: 230px;
+    text-align: left;
+    font-size: 20px;
+}
+
